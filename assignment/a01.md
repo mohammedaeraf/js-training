@@ -1,0 +1,52 @@
+### 📝 **Assignment 01: Change Image Source with JavaScript**
+
+#### 🎯 Objective:
+
+Create a simple webpage that displays an image and a button. When the button is clicked, the image should change to a different one using JavaScript.
+
+---
+
+### ✅ **Instructions:**
+
+1. Create an HTML page with:
+
+   * An `<img>` tag to display an image.
+   * A `<button>` that says **"Change Image"**.
+
+2. Write JavaScript to:
+
+   * Handle the button click event.
+   * Change the `src` attribute of the `<img>` tag to a different image.
+
+---
+
+### 🖼️ **Sample Output:**
+
+Before clicking the button:
+![Original Image](https://via.placeholder.com/150)
+
+After clicking the button:
+![New Image](https://via.placeholder.com/150/0000FF/808080)
+
+---
+
+### 💡 **Hint:**
+
+Use:
+
+```javascript
+document.getElementById("myImage").src = "new-image-url";
+```
+
+---
+
+### 📁 File Structure:
+
+* `index.html`
+* `script.js`
+
+---
+
+### 🚀 Bonus (Optional):
+
+Add a second button to **toggle back** to the original image.
