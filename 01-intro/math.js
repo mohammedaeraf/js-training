@@ -1,12 +1,8 @@
-let x = 5;
-let y = 2;
+let a = 20;
+let b = 5;
 
-let z = x + y;
-let p = x - y;
-let q = x * y; // multiply
-let r = x / y;
+let c = a + b;
+let d = a - b;
 
-console.log(z);
-console.log(p);
-console.log(q);
-console.log(r);
+console.log(c);
+console.log(d);
