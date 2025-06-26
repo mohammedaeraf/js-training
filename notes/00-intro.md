@@ -1,4 +1,4 @@
-# 🚀 Intro to JavaScript for React Students
+# 🚀 Intro to JavaScript
 
 ### 👩‍💻 Who is this for?
 

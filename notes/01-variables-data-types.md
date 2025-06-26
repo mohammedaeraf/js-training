@@ -1,4 +1,4 @@
-# 📘 Variables, Constants, Data Types in JS
+# 📘 Variables, Constants, Data Types 
 
 ---
 

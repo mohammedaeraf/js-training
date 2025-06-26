@@ -1,4 +1,4 @@
-## 🔁 Basic Loops in JavaScript
+## 🔁 Basic Loops 
 
 ### 🎯 What are Loops?
 

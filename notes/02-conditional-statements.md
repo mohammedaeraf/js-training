@@ -1,4 +1,4 @@
-## 📘 Conditional Statements in JavaScript
+## 📘 Conditional Statements
 
 ### 🎯 What are Conditional Statements?
 
