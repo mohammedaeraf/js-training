@@ -16,22 +16,21 @@ let fruits = ["Apple", "Banana", "Mango"];
 
 ## 📌 Why Use Arrays?
 
-* Store **multiple values** of the same or different types
-* Access items using **index**
-* Use built-in **methods** to manipulate data easily
+- Store **multiple values** of the same or different types
+- Access items using **index**
+- Use built-in **methods** to manipulate data easily
 
 ---
 
 ## 🔹 Declaring an Array
 
 ```javascript
-let numbers = [10, 20, 30, 40];         // Array of numbers
+let numbers = [10, 20, 30, 40]; // Array of numbers
 let names = ["Alice", "Bob", "Charlie"]; // Array of strings
-let mixed = [42, "Hello", true];        // Mixed types
+let mixed = [42, "Hello", true]; // Mixed types
 ```
 
-> 🔸 Array indices start from **0**
-> `numbers[0]` → 10
+> 🔸 Array indices start from **0** > `numbers[0]` → 10
 
 ---
 
@@ -88,8 +87,8 @@ console.log(animals.length); // Output: 3
 
 ```javascript
 let nums = [1, 2, 3];
-nums.push(4);     // [1, 2, 3, 4]
-nums.pop();       // [1, 2, 3]
+nums.push(4); // [1, 2, 3, 4]
+nums.pop(); // [1, 2, 3]
 ```
 
 #### `unshift()` and `shift()`:
@@ -97,7 +96,7 @@ nums.pop();       // [1, 2, 3]
 ```javascript
 let queue = ["A", "B"];
 queue.unshift("Start"); // ["Start", "A", "B"]
-queue.shift();          // ["A", "B"]
+queue.shift(); // ["A", "B"]
 ```
 
 #### `indexOf()` and `includes()`:
@@ -174,4 +173,3 @@ printArray(["Apple", "Banana", "Mango"]);
 | Check       | `length`, `includes()`, `indexOf()` |
 | Slice/Merge | `slice()`, `concat()`               |
 | Loop        | `for`, `for-of`, `forEach()`        |
-
