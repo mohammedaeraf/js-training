@@ -1,0 +1,21 @@
+<html lang="en">
+
+<body>
+    <script>
+        let response;
+
+        do {
+            response = prompt("Do you want to continue? (yes/no)");
+
+            if (response && response.toLowerCase() !== "no") {
+                alert("You chose to continue.");
+            }
+
+        } while (response && response.toLowerCase() !== "no");
+
+        alert("You chose to stop. Goodbye!");
+
+    </script>
+</body>
+
+</html>

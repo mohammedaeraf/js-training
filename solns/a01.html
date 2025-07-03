@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Switcher</title>
+    <style>
+        img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img id="mainImage" src="https://picsum.photos/id/201/200/300" alt="Image">
+
+    <button onclick="changeImage()">Change Image</button>
+
+    <script>
+        function changeImage() {
+            const img = document.getElementById("mainImage");
+            const currentSrc = img.getAttribute("src");
+
+            // Switch between two image sources
+
+            if (currentSrc.includes("201")) {
+                img.src = "https://picsum.photos/id/202/200/300";
+            } else {
+                img.src = "https://picsum.photos/id/201/200/300";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
