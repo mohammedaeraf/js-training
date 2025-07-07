@@ -3,8 +3,6 @@ function checkEvenOdd(n) {
     return true;
   } else {
     return false;
-    }
-    // ternary operator
-    
+  }
 }
-console.log( checkEvenOdd(6) );
+console.log(checkEvenOdd(6));

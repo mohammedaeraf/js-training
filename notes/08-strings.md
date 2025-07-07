@@ -1,4 +1,3 @@
-
 # 📘 Strings Tutorial
 
 ---
