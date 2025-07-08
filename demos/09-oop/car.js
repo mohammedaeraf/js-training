@@ -23,3 +23,6 @@ let myCar = new Car("Toyota", "Corolla", "2025"); // Create a car with brand "To
 
 // Display the details of the car
 myCar.displayDetails(); // Call the method to display the car details
+
+let car2 = new Car("Renault", "Triber", "2024");
+car2.displayDetails();

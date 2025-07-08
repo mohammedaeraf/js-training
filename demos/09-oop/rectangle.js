@@ -1,9 +1,10 @@
 // Define a class
 class Rectangle {
   // Constructor method to initialize the properties
-  constructor(length, width) {
-    this.length = length; // Property: length of the rectangle
-    this.width = width;   // Property: width of the rectangle
+
+  constructor(len, wdt) {
+    this.length = len; // Property: length of the rectangle
+    this.width = wdt; // Property: width of the rectangle
   }
 
   // Method to calculate the area of the rectangle
@@ -21,3 +22,5 @@ class Rectangle {
 
 // Create an object of the class
 const rect = new Rectangle(10, 5); // Create a rectangle with length 10 and width 5
+console.log(`Area of Rectangle = ${rect.calculateArea()}`);
+console.log(`Perimeter of Rectangle = ${rect.calculatePerimeter()}`);
