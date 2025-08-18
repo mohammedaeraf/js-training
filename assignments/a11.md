@@ -1,0 +1,60 @@
+# 🎓 **Assignment 11: Modules & Modular Programming**
+
+## 🔍 **Objective:**
+
+To practice **creating**, **exporting**, and **importing** modules using **ES6 module syntax** in JavaScript.
+
+---
+
+## 📦 **Instructions:**
+
+You are required to build a small module-based system consisting of **two or more JavaScript files**.
+
+---
+
+### ✅ **Problem Statement: Basic Calculator Using Modules**
+
+---
+
+### 📁 File 1: `mathUtils.js`
+
+- Create and **export** the following functions:
+
+  1. `add(a, b)` – returns the sum.
+  2. `subtract(a, b)` – returns the difference.
+  3. `multiply(a, b)` – returns the product.
+  4. `divide(a, b)` – returns the quotient (handle division by zero).
+
+---
+
+### 📁 File 2: `main.js`
+
+- **Import** the above functions from `mathUtils.js`.
+- Call each function with sample values and print the results using `console.log()`.
+
+---
+
+### ⚙️ **Requirements:**
+
+- Use **named exports** for each function in `mathUtils.js`.
+- Use **import** syntax in `main.js`.
+- Both files should use **`.mjs` extension** OR have `"type": "module"` in `package.json`.
+
+---
+
+## 🧪 Sample Output:
+
+```bash
+Addition: 10
+Subtraction: 4
+Multiplication: 24
+Division: 2
+```
+
+---
+
+## 🎯 Bonus Task:
+
+- Add a new file called `geometryUtils.js`.
+- Export a default class `Rectangle` with properties `length` and `width`, and a method `getArea()`.
+- Import and use this class in `main.js` to calculate the area of a rectangle.
