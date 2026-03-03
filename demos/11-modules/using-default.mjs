@@ -1,2 +1,2 @@
-import greet from "./default.mjs";
+import greet from "./modules/default.mjs";
 greet("Nadeem");

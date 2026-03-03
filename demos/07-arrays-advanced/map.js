@@ -1,5 +1,7 @@
 let numbers = [2, 10, 50];
+
 let numbers2 = numbers.map((n) => n * 2);
+
 console.log(numbers2);
 
 

@@ -12,7 +12,7 @@ class Car {
     this.year = yr; // Initialize year
   }
 
-  // Method to display the details of the car
+  // Method (Function) to display the details of the car
   displayDetails() {
     console.log(`This car is a ${this.brand} ${this.model} ${this.year}.`); // Log the car details
   }

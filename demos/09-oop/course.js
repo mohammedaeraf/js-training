@@ -28,4 +28,15 @@ let course = new Course(
   "Mongo DB, Express JS, React JS, Node JS"
 );
 
+
+let course2 = new Course(
+  "Web Design",
+  "75 Days",
+  10000,
+  "HTML, CSS, JS"
+);
+
+
+
 course.printDetails();
+course2.printDetails();

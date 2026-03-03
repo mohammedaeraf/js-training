@@ -8,4 +8,6 @@ let factorial = (n) => {
   return fact;
 };
 
-export { square, factorial };
+// export { square, factorial };
+export default square;
+export {factorial}

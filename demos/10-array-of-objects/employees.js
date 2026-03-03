@@ -5,9 +5,9 @@ let employees = [
 ];
 
 // Increase each salary by ₹2000
-let updated = employees.map((emp) => ({
+let employeesUpdated = employees.map((emp) => ({
   name: emp.name,
   salary: emp.salary + 2000,
 }));
 
-console.log("Updated Salaries:", updated);
+console.log("Updated Salaries:", employeesUpdated);

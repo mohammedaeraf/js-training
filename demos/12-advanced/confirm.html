@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Confirm Demo</title>
+  </head>
+  <body>
+    <button onclick="runConfirm()">Click Me</button>
+    <p id="output"></p>
+
+    <script>
+      function runConfirm() {
+        // Displays the confirmation box and stores the result (true/false)
+        const result = window.confirm("Are you sure you want to delete?");
+
+        // Output the boolean result to the page
+        document.getElementById("output").textContent =
+          "User selected: " + result;
+      }
+    </script>
+  </body>
+</html>

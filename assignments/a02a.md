@@ -1,0 +1,103 @@
+# 🧩 Assignment: Train Ticket Fare Calculator
+
+## 🎯 Objective:
+
+Practice using **if–else if–else conditional statements** in JavaScript.
+
+---
+
+## 🚆 Problem Statement:
+
+A railway company charges ticket fare based on the passenger’s age:
+
+| Age Group              | Category       | Fare                     |
+| ---------------------- | -------------- | ------------------------ |
+| **10 years or less**   | Child          | ₹100                     |
+| **11 to 59 years**     | Adult          | ₹250                     |
+| **60 years and above** | Senior Citizen | ₹150 (Concessional Fare) |
+
+Write a JavaScript program to calculate and display the ticket fare based on the passenger’s age.
+
+---
+
+## 🧠 Task Instructions:
+
+1. Create a variable named `age` and assign a value (hardcoded).
+
+   ```js
+   let age = 65;
+   ```
+
+2. Use `if–else if–else` statements to:
+
+   * Check if age is **10 or less** → Fare ₹100
+   * Check if age is between **11 and 59** → Fare ₹250
+   * Check if age is **60 or above** → Fare ₹150
+
+3. Print the result in the format:
+
+   ```
+   Age: 65
+   Category: Senior Citizen
+   Ticket Fare: ₹150
+   ```
+
+---
+
+## 🧪 Test Cases
+
+### ✅ Test Case 1:
+
+```js
+let age = 8;
+```
+
+**Output:**
+
+```
+Age: 8
+Category: Child
+Ticket Fare: ₹100
+```
+
+---
+
+### ✅ Test Case 2:
+
+```js
+let age = 35;
+```
+
+**Output:**
+
+```
+Age: 35
+Category: Adult
+Ticket Fare: ₹250
+```
+
+---
+
+### ✅ Test Case 3:
+
+```js
+let age = 70;
+```
+
+**Output:**
+
+```
+Age: 70
+Category: Senior Citizen
+Ticket Fare: ₹150
+```
+
+---
+
+## ⭐ Bonus Challenge (Optional):
+
+* If age is negative, print:
+
+  ```
+  Invalid Age
+  ```
